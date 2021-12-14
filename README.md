@@ -880,4 +880,4 @@ Calculate RMS
 	Amplitudes and phases of DC part, 2nd harmonics, and 4th harmonics in a modulated signal: amp_4f, phase_4f, amp_2f, phase_2f, amp_DC(No value)   
 </details> 
 
-## After line 800 is the matrix based calculation version of Mueller_matrix_multilayer but they are commented out
+After line 800 is the matrix based calculation version of Mueller_matrix_multilayer but they are commented out

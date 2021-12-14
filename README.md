@@ -1,5 +1,6 @@
+
 # AHWP related functions in lib_KK.py  
-</details> 
+example.py makes a plot of polarization efficiency and phase for two type of AHWP calculated with ignoring any reflection effects
 
 ## rms(x)  
 **Purpose:**  

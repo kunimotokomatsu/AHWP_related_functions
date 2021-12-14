@@ -29,9 +29,9 @@ Calculate transmittance and its error
 
 **Input:**     
 	air: air data (intensity w/o sample)  
-	air: measurement error of air data    
-	air: sample data (intensity w/ sample)  
-	air: measurement error of sample data   
+	air_err: measurement error of air data    
+	sample: sample data (intensity w/ sample)  
+	sample_err: measurement error of sample data   
 	
 **Return:**   
 	transmittance, error of transmittance  

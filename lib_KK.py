@@ -26,6 +26,11 @@ def rms(x):
     x=np.array(x)
     return np.sqrt(np.sum(x**2)/float(len(x)))
 
+def get_Trans(air,air_err,sample,sample_err):
+    t=sample/air
+    err=np.sqrt((sample_err/air)**2.+(sample*air_err/(np.array(air)**2.))**2.)
+    return t,err
+
 def read_txt2f(filename):
     import fileinput
     arr1 = []

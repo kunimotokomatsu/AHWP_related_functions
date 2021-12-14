@@ -15,6 +15,23 @@ Calculate RMS
 	RMS of x  
 </details> 
 
+## Get_trans(air,air_err,sample,sample_err)  
+**Purpose:**  
+Calculate transmittance and its error   
+
+
+<details><summary>Input and Return</summary>
+
+**Input:**     
+	air: air data (intensity w/o sample)  
+	air: measurement error of air data    
+	air: sample data (intensity w/ sample)  
+	air: measurement error of sample data   
+	
+**Return:**   
+	transmittance, error of transmittance  
+</details> 
+
 ## read_txt2f(filename)  
 **Purpose:**  
 	Read a .txt, .dat, and so on have two columns  
@@ -790,7 +807,7 @@ Calculate RMS
 		phase: phase [rad] (this phase corresponds to a8 in fit_func())  
 	
 **Return:**  
-	A band averaged polarization efficiency and phase: poleff, phase  
+	A band averaged polarization efficiency and phase: poleff, phase, maximum phase variation  
 </details> 
 
 ## band_ave_poleff(poleff,phase, weight_func)
@@ -805,7 +822,7 @@ Calculate RMS
 		weight_func: weight function, its total should be one   
 	
 **Return:**  
-	A band averaged polarization efficiency and phase: poleff, phase  
+	A band averaged polarization efficiency and phase: poleff, phase, maximum phase variation  
 </details> 
 
 ## sum_cos4f(amp,phase, weight_func)
@@ -821,7 +838,7 @@ Calculate RMS
 		weight_func: weight function, its total should be one   
 	
 **Return:**  
-	A integrated amplitude and phase: amp, phase   
+	A integrated amplitude and phase: amp, phase, maximum phase variation   
  </details> 
 
 ## sum_cos2f(amp,phase, weight_func)
@@ -837,7 +854,7 @@ Calculate RMS
 		weight_func: weight function, its total should be one  
 	
 **Return:**  
-	A integrated amplitude and phase: amp, phase   
+	A integrated amplitude and phase: amp, phase, maximum phase variation   
 </details> 
 
 ## sum_trig(amp, phase)

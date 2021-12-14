@@ -762,7 +762,7 @@ Calculate RMS
 	We also assume a liniear polarization as a incident radiation  
 	Any reflections are ignored in this function   
 	This function directly calculates amplitudes and phases of 4th harmonics from elements of Mueller matrix  
-	I DO NOT CHECK WEITHER THIS FUNCTION WORK CORRECT OR NOT  
+	I DO NOT CHECK WHETHER THIS FUNCTION WORK CORRECT OR NOT  
 	
 <details><summary>Input and Return</summary>
 
@@ -863,7 +863,7 @@ Calculate RMS
 	We assume a liniear polarization as a incident radiation  
 	Any reflections are ignored in this function   
 	This function directly calculates amplitudes and phases of 2nd and 4th harmonics from elements of Mueller matrix  
-	I DO NOT CHECK WEITHER THIS FUNCTION WORK CORRECT OR NOT  
+	I DO NOT CHECK WHETTHER THIS FUNCTION WORK CORRECT OR NOT  
 	
 <details><summary>Input and Return</summary>
 

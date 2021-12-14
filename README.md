@@ -1,5 +1,8 @@
 
-# AHWP related functions in lib_KK.py  
+# AHWP related functions in lib_KK.py 
+AHWP=Achromatic Half-Wave Plate  
+First paper: [S. Pancharatnam (1955)-1](https://doi.org/10.1007/BF03047097) [S. Pancharatnam (1955)-2](https://doi.org/10.1007/BF03047098)  
+Works related to AHWP: [G. Savini et al. (2006)](https://doi.org/10.1364/AO.45.008907),[T. Matsumura et al. (2009)](https://doi.org/10.1364/AO.48.003614),[K. Komatsu et al. (2019)](https://doi.org/10.1117/1.JATIS.5.4.044008),[S. Hanany et al. (2005)](https://doi.org/10.1364/AO.44.004666),[K. Komatsu et al. (2021)](http://dx.doi.org/10.1117/1.JATIS.7.3.034005) [[arXiv](https://arxiv.org/abs/2105.05561)]  
 example.py makes a plot of polarization efficiency and phase for two type of AHWP calculated with ignoring any reflection effects.  
 The formalism in these functions can be found in [K. Komatsu et al. (2021)](http://dx.doi.org/10.1117/1.JATIS.7.3.034005) [[arXiv](https://arxiv.org/abs/2105.05561)] and [Thomas Essinger-Hileman (2014)](https://doi.org/10.1364/AO.52.000212) [[arXiv](https://arxiv.org/abs/1301.6160)].
 

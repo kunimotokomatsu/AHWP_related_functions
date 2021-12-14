@@ -585,7 +585,7 @@ Calculate transmittance and its error
 
 ## litebird_lft_old_band(freq,data)
 **Purpose:**  
-	Devide data by old LFT frequency bands [KEK wiki](https://wiki.kek.jp/pages/viewpage.action?pageId=108104267)  
+	Devide data by old LFT frequency bands [H. Ishino et al. (2016)](https://doi.org/10.1117/12.2231995)    
 	
 <details><summary>Input and Return</summary>
 
@@ -599,7 +599,7 @@ Calculate transmittance and its error
 
 ## litebird_lft_band(freq,data)
 **Purpose:**  
-	Devide data by current LFT frequency bands [KEK wiki](https://wiki.kek.jp/pages/viewpage.action?pageId=108104267)  
+	Devide data by current LFT frequency bands [Hazumi et al. (2021)](https://doi.org/10.1117/12.2563050)[[arXiv](https://arxiv.org/abs/2101.12449)]  
 	
 <details><summary>Input and Return</summary>
 
@@ -613,7 +613,7 @@ Calculate transmittance and its error
 
 ## litebird_band(freq,data)
 **Purpose:**  
-	Devide data by old LiteBIRD frequency bands [KEK wiki](https://wiki.kek.jp/pages/viewpage.action?pageId=108104267)  
+	Devide data by old LiteBIRD frequency bands [H. Ishino et al. (2016)](https://doi.org/10.1117/12.2231995)  
 	
 <details><summary>Input and Return</summary>
 

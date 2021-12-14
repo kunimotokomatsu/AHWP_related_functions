@@ -25,7 +25,7 @@ Calculate RMS
 	filename: file name in strings  
 	
 **Return:**   
-	Two array correspond to each column as [Column-1], [Column-2]  
+	Two array correspond to each column: Column-1, Column-2  
 </details> 
 
 ## read_txt3f(filename)
@@ -38,7 +38,7 @@ Calculate RMS
 	filename: file name in strings  
 	
 **Return:**   
-	Two array correspond to each column as [Column-1], [Column-2], [Column-3]  
+	Two array correspond to each column: Column-1, Column-2, Column-3  
 </details> 
 
 ## read_txt4f(filename)
@@ -51,7 +51,7 @@ Calculate RMS
 	filename: file name in strings  
 	
 **Return:**   
-	Two array correspond to each column as [Column-1], [Column-2], [Column-3], [Column-4]  
+	Two array correspond to each column: Column-1, Column-2, Column-3, Column-4  
 </details> 
 
 ## fit_func(theta,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
